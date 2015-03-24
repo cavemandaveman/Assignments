@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<font color="white">
+<head>
+	<title>Card Games</title>
+	<strong>Card Games</strong>
+	<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: center;
+}
+
+a:link, a:visited {
+    display: block;
+    width: 150px;
+    font-weight: normal;
+    color: red;
+    background-color: black;
+    text-align: right;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+a:hover, a:active {
+    background-color: white;
+}
+</style>
+</head>
+
+<body bgcolor="black">
+
+<center><p>Register</p></center>
+
+<ul>
+  <li><a href="cardgames.html">Home</a></li>
+  <li><a href="poker.html">Poker</a></li>
+  <li><a href="blackjack.html">Blackjack</a></li>
+  <li><a href="war.html">War</a></li>
+  <li><a href="registration.html">Register</a></li>
+</ul>
+
+<center>
+<form action="" method="post">
+	<table>
+		<tr>
+			<td>Username:</td>
+			<td><input type="text"></td>
+		</tr>
+		<tr>
+			<td>Password:</td>
+			<td><input type="text"></td>
+		</tr>
+	</table>
+		<p>Which are you interested in?:</p>
+	<table>
+		<tr>
+			<td><input type="checkbox" name="gametype" value="poker">Poker</input></td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" name="gametype" value=blackjack">Blackjack</input></td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" name="gametype" value="war">War</input></td>
+		</tr>
+	</table>
+<p><input type="submit" value="Register Now"></p>
+</form>
+</center>
+
+
+
+</body>
+</font>
+</html>
