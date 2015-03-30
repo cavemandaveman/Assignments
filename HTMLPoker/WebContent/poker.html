@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Card Games</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<p>Poker</p>
+
+<ul>
+  <li><a class="list" href="index.html">Home</a></li>
+  <li><a class="list" href="poker.html">Poker</a></li>
+  <li><a class="list" href="blackjack.html">Blackjack</a></li>
+  <li><a class="list" href="war.html">War</a></li>
+</ul>
+
+
+<form action="PokerView" name="pokerform" method="POST">
+	<table>
+		<tr class="poker">
+			<td>Name:</td>
+			<td><input type="text" name="name" value="Player 1"></td>
+		</tr>
+		<tr class="poker">
+			<td>How Many Players?</td>
+			<td><input type="radio" name="players" value="2" checked>2</td>
+			<td><input type="radio" name="players" value="3">3</td>
+			<td><input type="radio" name="players" value="4">4</td>
+			<td><input type="radio" name="players" value="5">5</td>
+		</tr>
+		<tr class="poker">
+			<td>Ante:</td>
+			<td>$<input type="text" name="ante" value="5.00"></td>
+		</tr>
+		<tr class="poker">
+			<td>Wallet Size:</td>
+			<td>$<input type="text" name="wallet" value="15.00"></td>
+		</tr>
+	</table>
+	<p><input type="submit" value="Play!"></p>
+</form>
+
+
+</body>
+</html>
